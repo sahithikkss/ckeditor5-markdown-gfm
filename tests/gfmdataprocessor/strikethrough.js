@@ -9,7 +9,7 @@ describe( 'GFMDataProcessor', () => {
 	describe( 'Strikethrough', () => {
 		it( 'should process strikethrough text', () => {
 			test(
-				'~~deleted~~',
+				'~deleted~',
 
 				'<p><del>deleted</del></p>'
 			);
@@ -17,7 +17,7 @@ describe( 'GFMDataProcessor', () => {
 
 		it( 'should process strikethrough inside text', () => {
 			test(
-				'This is ~~deleted content~~.',
+				'This is ~deleted content~.',
 
 				'<p>This is <del>deleted content</del>.</p>'
 			);
