@@ -19,7 +19,7 @@ See the {@link features/markdown Markdown output} guide and the {@link module:ma
 ## Installation
 
 ```bash
-npm install --save @ckeditor/ckeditor5-markdown-gfm
+npm install --save-dev @ckeditor/ckeditor5-markdown-gfm
 ```
 
 ## Contribute
